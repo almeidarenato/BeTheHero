@@ -1,12 +1,22 @@
-# Be The Hero
 
-## Semana OmniStack 11 - rocketseat
+<h1 align=center >Be The Hero</h1>
+<h2 align=center > 🚀 Semana OmniStack 11 - RocketSeat</h2>
 
-Esta solução visa conectar Organizações sem fins lucrativos a pessoas que possam ajudar
 
-## Tecnologias
+<p align="center">
+  <a href="#-Escopo">Escopo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Interfaces">Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-- ReactJS - FrontEnd
-  - Interface onde as organizações irão se cadastrar e abrir casos para que pessoas possam participar
-- NodeJS - BackEnd
-- ReactNative - App Mobile
+## 💡 Escopo
+Esta solução visa conectar ONGs a pessoas que possam ajudar. Ela faz parte da semana OmniStack 11.0 promovida pela RocketSeat
+
+## 💻 Tecnologias
+
+- ReactJS -  Interface de Cadastro de ONGs
+- NodeJS - Api REST BackEnd
+- ReactNative - App Mobile para usuários que buscam ONGs e participam das causas
+
+## 🏞 Interfaces
+ (em construção)
