@@ -33,7 +33,7 @@ function Profile() {
       });
       setIncidents(
         incidents.filter(incident => {
-          return incident.id != id ? true : false;
+          return incident.id !== id ? true : false;
         })
       );
     } catch (err) {
