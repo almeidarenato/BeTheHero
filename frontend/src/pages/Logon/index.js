@@ -1,5 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useHistory } from "react-router-dom";
+
+import api from "../../services/api";
 import "./styles.css";
 
 import heroesImage from "../../assets/heroes.png";
@@ -7,14 +9,34 @@ import LogoImage from "../../assets/logo.svg";
 import { FiLogIn } from "react-icons/fi";
 
 export default function Logon() {
+  const [id, setId] = useState("");
+  const history = useHistory();
+
+  async function handleLogin(evt) {
+    evt.preventDefault();
+    try {
+      const response = await api.post("sessions", { id });
+      localStorage.setItem("ongId", id);
+      localStorage.setItem("ongName", response.data.name);
+      history.push("/profile");
+    } catch (err) {
+      alert(`problemas ao fazer login ${err}`);
+    }
+  }
   return (
     <div className="logon-container">
       <section className="form">
         <img src={LogoImage} alt="Be the Hero" />
-        <form>
+        <form onSubmit={handleLogin}>
           <h1>Faça seu Logon</h1>
-          <input placeholder="Sua ID" />
-          <button className="button">Entrar</button>
+          <input
+            placeholder="Sua ID"
+            value={id}
+            onChange={evt => setId(evt.target.value)}
+          />
+          <button type="submit" className="button">
+            Entrar
+          </button>
           <Link to="/register" className="back-link">
             <FiLogIn size={16} color="#E02041" />
             Não Tenho Cadastro
