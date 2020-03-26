@@ -12,7 +12,7 @@ function Profile() {
         <img src={LogoImage} alt="Be the Hero" />
 
         <span>Bem Vinda, APAD</span>
-        <Link className="button" to="/incidents/new">
+        <Link className="button" to="/incident/new">
           Cadastrar novo caso
         </Link>
         <button type="button">
