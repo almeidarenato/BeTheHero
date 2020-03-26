@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 import heroesImage from "../../assets/heroes.png";
@@ -14,10 +15,10 @@ export default function Logon() {
           <h1>Faça seu Logon</h1>
           <input placeholder="Sua ID" />
           <button className="button">Entrar</button>
-          <a href="/register">
+          <Link to="/register" className="back-link">
             <FiLogIn size={16} color="#E02041" />
             Não Tenho Cadastro
-          </a>
+          </Link>
         </form>
       </section>
 
