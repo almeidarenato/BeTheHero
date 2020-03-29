@@ -1,0 +1,306 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2020-03-29T13:44:36.828Z",
+  "__export_source": "insomnia.desktop.app:v7.1.1",
+  "resources": [
+    {
+      "_id": "req_945efd311b2446e7add508d92c2574cb",
+      "authentication": {},
+      "body": {},
+      "created": 1585099327043,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "disabled": false,
+          "id": "pair_76708525526a4b84ba204835d27e5920",
+          "name": "Authorization",
+          "value": "d6051050"
+        },
+        {
+          "description": "",
+          "disabled": true,
+          "id": "pair_0c42083558654a74a29cedb8647dd28b",
+          "name": "",
+          "value": ""
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1585099327043,
+      "method": "GET",
+      "modified": 1585487181914,
+      "name": "Profile",
+      "parameters": [],
+      "parentId": "wrk_fce3b7071f714c0288271a36616c238f",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ baseurl  }}/profile/",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_fce3b7071f714c0288271a36616c238f",
+      "created": 1585081936727,
+      "description": "",
+      "modified": 1585081936727,
+      "name": "Semana OmniStack 11",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_d7b6907030a5497fa9c735bce14be502",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n \"id\":\"d6051050\"\n}"
+      },
+      "created": 1585099768825,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_0c42083558654a74a29cedb8647dd28b",
+          "name": "",
+          "value": ""
+        },
+        {
+          "id": "pair_a0461fb55e714a808ebd821551177150",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1585098498026.5,
+      "method": "POST",
+      "modified": 1585487762321,
+      "name": "Login",
+      "parameters": [],
+      "parentId": "wrk_fce3b7071f714c0288271a36616c238f",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ baseurl  }}/sessions",
+      "_type": "request"
+    },
+    {
+      "_id": "req_a6b0428bcdec44fe84447cbf1cf958ea",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\":\"Caso 12\",\n\t\"description\":\"Detalhes do Caso\",\n\t\"value\": 100\n}"
+      },
+      "created": 1585097669010,
+      "description": "",
+      "headers": [
+        {
+          "disabled": false,
+          "id": "pair_2692181259274ebe87e2bc6f31355846",
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "description": "",
+          "disabled": false,
+          "id": "pair_c06c8d4edd084b85997dfd09c87c3c18",
+          "name": "Authorization",
+          "value": "ce74d2bf"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1585097669010,
+      "method": "POST",
+      "modified": 1585487620736,
+      "name": "Create",
+      "parameters": [],
+      "parentId": "fld_27d424bcd2634457b00cb76fa43d46f5",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ baseurl  }}/incidents",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_27d424bcd2634457b00cb76fa43d46f5",
+      "created": 1585097638136,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1585091783869,
+      "modified": 1585097648405,
+      "name": "Casos",
+      "parentId": "wrk_fce3b7071f714c0288271a36616c238f",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_5daf2903255842fcae31a698ccead2e1",
+      "authentication": {},
+      "body": {},
+      "created": 1585098406775,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_c06c8d4edd084b85997dfd09c87c3c18",
+          "name": "Authorization",
+          "value": "d6051050"
+        },
+        {
+          "description": "",
+          "id": "pair_f4995c8b2d584b6eaa2afd3478647c52",
+          "name": "",
+          "value": ""
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1585096201889.75,
+      "method": "DELETE",
+      "modified": 1585487267171,
+      "name": "Delete",
+      "parameters": [],
+      "parentId": "fld_27d424bcd2634457b00cb76fa43d46f5",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ baseurl  }}/incidents/5",
+      "_type": "request"
+    },
+    {
+      "_id": "req_eea6638be0094276abc276e534d93ad8",
+      "authentication": {},
+      "body": {},
+      "created": 1585098078890,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1585094734769.5,
+      "method": "GET",
+      "modified": 1585487369659,
+      "name": "List",
+      "parameters": [],
+      "parentId": "fld_27d424bcd2634457b00cb76fa43d46f5",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ baseurl  }}/incidents?page=1",
+      "_type": "request"
+    },
+    {
+      "_id": "req_631a3e14d7524733b06023988930f403",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"ONGA\",\n\t\"email\":\"ONG@apad.com.br\",\n\t\"whatsapp\":\"11999223222\",\n\t\"city\":\"São Paulo\",\n\t\"uf\":\"SP\"\n}"
+      },
+      "created": 1585091800529,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_7bdf06fe0d9d40f7ae880ecbfac47614",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1585091800529,
+      "method": "POST",
+      "modified": 1585486836271,
+      "name": "Create",
+      "parameters": [],
+      "parentId": "fld_a5d1968dcf9649d09ba1e282bc7166fd",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ baseurl  }}/ongs",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_a5d1968dcf9649d09ba1e282bc7166fd",
+      "created": 1585091783818,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1585091783819,
+      "modified": 1585091783818,
+      "name": "ONGs",
+      "parentId": "wrk_fce3b7071f714c0288271a36616c238f",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_2eff0108305843d5846d8df6c8ec7f55",
+      "authentication": {},
+      "body": {},
+      "created": 1585094176075,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1584728378538.5,
+      "method": "GET",
+      "modified": 1585094183408,
+      "name": "List",
+      "parameters": [],
+      "parentId": "fld_a5d1968dcf9649d09ba1e282bc7166fd",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ baseurl  }}/ongs",
+      "_type": "request"
+    },
+    {
+      "_id": "env_c88bf52d1eb369118ebb1a5ddca1cd358f116f39",
+      "color": null,
+      "created": 1585081936799,
+      "data": {},
+      "dataPropertyOrder": null,
+      "isPrivate": false,
+      "metaSortKey": 1585081936799,
+      "modified": 1585081936799,
+      "name": "Base Environment",
+      "parentId": "wrk_fce3b7071f714c0288271a36616c238f",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_c88bf52d1eb369118ebb1a5ddca1cd358f116f39",
+      "cookies": [],
+      "created": 1585081936806,
+      "modified": 1585081936806,
+      "name": "Default Jar",
+      "parentId": "wrk_fce3b7071f714c0288271a36616c238f",
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "env_1e1a2460bc0e41368a0ce4d90e34427d",
+      "color": null,
+      "created": 1585081951118,
+      "data": { "baseurl": "http://localhost:3333" },
+      "dataPropertyOrder": { "&": ["baseurl"] },
+      "isPrivate": false,
+      "metaSortKey": 1585081951118,
+      "modified": 1585087021942,
+      "name": "Dev",
+      "parentId": "env_c88bf52d1eb369118ebb1a5ddca1cd358f116f39",
+      "_type": "environment"
+    }
+  ]
+}
