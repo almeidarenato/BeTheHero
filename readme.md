@@ -39,15 +39,15 @@ Esta solução visa conectar ONGs a pessoas que possam ajudar. Ela faz parte da 
 
 ### 1. Splash Screen
 
-<img src='/images/app-splash.jpg' width='600px'>
+<img src='/images/app-splash.jpg' width='300px'>
 
 ### 2. Lista de Casos
 
-<img src='/images/app-incidents.jpg' width='600px'>
+<img src='/images/app-incidents.jpg' width='300px'>
 
 ### 3. Detalhe de Casos
 
-<img src='/images/app-detail.jpg' width='600px'>
+<img src='/images/app-detail.jpg' width='300px'>
 
 ## Backend
 
