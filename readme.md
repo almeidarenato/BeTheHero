@@ -18,17 +18,36 @@ Esta solução visa conectar ONGs a pessoas que possam ajudar. Ela faz parte da 
 - ReactNative - App Mobile para usuários que buscam ONGs e participam das causas
 
 ## 🏞 Frontend - Interfaces
+
 ### 1. Logon
+
 <img src='/images/logon.png' width='600px'>
 
 ### 2. Registro de Nova Ong
+
 <img src='/images/register.png' width='600px'>
 
 ### 3. Consulta de casos
+
 <img src='/images/profile.png' width='600px'>
 
 ### 4. Cadastro de Casos
+
 <img src='/images/newincident.png' width='600px'>
+
+## 🏞 Mobile - Interfaces
+
+### 1. Splash Screen
+
+<img src='/images/app-splash.png' width='600px'>
+
+### 2. Lista de Casos
+
+<img src='/images/app-incidents.png' width='600px'>
+
+### 3. Detalhe de Casos
+
+<img src='/images/app-detail.png' width='600px'>
 
 ## Backend
 
@@ -38,3 +57,4 @@ Esta solução visa conectar ONGs a pessoas que possam ajudar. Ela faz parte da 
 - SQLite3
 - Knex
 - Cors
+- Celebrate
