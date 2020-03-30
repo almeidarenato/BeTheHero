@@ -4,9 +4,9 @@
 <p align="center">
   <a href="#-Escopo">Escopo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Frontend">Frontend - Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Mobile">Mobile - Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Backend">Backend</a>
+  <a href="#-Frontend---Interfaces">Frontend - Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Mobile---Interfaces">Mobile - Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-backend">Backend</a>
 </p>
 
 ## 💡 Escopo
@@ -37,7 +37,7 @@ Esta solução visa conectar ONGs a pessoas que possam ajudar. Ela faz parte da 
 
 <img src='/images/newincident.png' width='600px'>
 
-## 📱Mobile - Interfaces
+## 📱 Mobile - Interfaces
 
 ### 1. Splash Screen
 
@@ -51,7 +51,7 @@ Esta solução visa conectar ONGs a pessoas que possam ajudar. Ela faz parte da 
 
 <img src='/images/app-detail.jpg' width='300px'>
 
-## 🖥️Backend
+## 🖥️ Backend
 
 - NodeJS
 - Express
