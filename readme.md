@@ -1,4 +1,5 @@
-<h1 align=center >Be The Hero</h1>
+
+<h1 align=center ><img src="frontend/src/assets/logo.svg"></h1>
 <h2 align=center > 🚀 Semana OmniStack 11 - RocketSeat</h2>
 
 <p align="center">
